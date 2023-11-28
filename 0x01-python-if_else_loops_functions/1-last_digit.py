@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 10000)
-digit = abs(num) % 10
+num = random.randint(-10000, 10000)
+dig = abs(num) % 10
 if num < 0:
     dig = -dig
 print(f"Last digit of {number:d} is {digit:d} and is ", end="")
