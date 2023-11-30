@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-import sys
 
 if __name__ == '__main__':
-    sys.argv.pop(0)
-    totalg = 0
-    for number in sys.argv:
-        total += int(number)
-    print("{}".format(total))
+    import sys
+    sum = 0
+    for n in range(len(sys.argv) - 1):
+        sum += int(sys.argv[n + 1])
+    print(sum)
