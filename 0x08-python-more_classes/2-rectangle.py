@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""Module 2-rectangle
-Defines a Rectangle class.
-"""
+"""Module 2-rectangle Defines a class."""
 
 
 class Rectangle:
-    """Rectangle class defined by width and height."""
+    """width and height."""
 
     def __init__(self, width=0, height=0):
         """Initializes a Rectangle instance.
