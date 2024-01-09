@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-Contains the clas "Student"
-"""
+"""Contains the clas "Student"""
 
 
 class Student:
-    """Representation of a student"""
+    """Repr student"""
     def __init__(self, first_name, last_name, age):
         """Initializes the student"""
         self.first_name = first_name
@@ -13,8 +11,7 @@ class Student:
         self.age = age
 
     def to_json(self, attrs=None):
-        """returns a dictionary representation of a Student instance
-        with specified attributes"""
+        """return dictionar"""
         if attrs is None:
             return self.__dict__
         new_dict = {}
@@ -26,7 +23,7 @@ class Student:
         return new_dict
 
     def reload_from_json(self, json):
-        """replaces all attributes of the Student instance"""
+        """rep"""
         for key in json:
             try:
                 setattr(self, key, json[key])

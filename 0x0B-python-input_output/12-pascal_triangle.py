@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-"""
-Defines pasacal triangle that create list of lists
-"""
+"""pasacal triangle"""
 
 
 def pascal_triangle(n):
-    """
-    defines triangle module
-    """
+    """defines triangle module"""
+
     if n <= 0:
         return []
     temp = []
