@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-Contains the "from_json_string" function
-"""
+""""from_json_string"""
 
 import json
 
 
 def from_json_string(my_str):
-    """returns an object represented by a JSON string"""
+    """returns object"""
     return json.loads(my_str)
