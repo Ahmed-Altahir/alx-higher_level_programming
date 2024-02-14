@@ -1,5 +1,4 @@
--- create a table second_table in hbtn_0c_0
--- add multiple rows
+-- create table
 CREATE TABLE IF NOT EXISTS second_table (id INT,
 name VARCHAR(256),
 score INT);
